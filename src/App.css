@@ -1,0 +1,119 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  
+}
+
+.nav-link{
+  font-weight: 500 !important;
+}
+.navbar-brand{
+  font-weight: 500 !important;
+
+}
+.navbar-nav .nav-link:hover {
+    color: #FF9800 !important;
+  }
+  .prof{
+    color: #42dfe4;
+  }
+  .web{
+    color: #FF9800;
+  }
+  
+  .animated-image {
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width as needed */
+    animation: upAndDown 2s linear infinite;
+  }
+  
+  @keyframes upAndDown {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+  .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+    border: 2px solid black;
+  }
+  #underlineh1{
+    text-decoration: underline;
+  }
+ .insidecontainer{
+  
+  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
+ }
+ .btn1{
+  background-color: #FF9800;
+  padding: 9px;
+  border-radius: 6px;
+  font-weight: bolder;
+  color:black;
+  border: 0px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+ }
+ .btn1:hover{
+  background-color: #42dfe4;
+ }
+ 
+ .contact-form {
+  
+  max-width: 500px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.contact-form:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.about-us {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-size: larger;
+  font-family: sans-serif;
+}
+.cardskill{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 3px solid rgb(116, 114, 114);
+  width: 150px;
+  height: 100px;
+  padding: 20px;
+  cursor: pointer;
+  font-weight: bolder;
+}
+.cardskill:hover{
+  background-color: black;
+  color: white;
+}
+
+/* Skills */
+.Skills{
+  font-weight: bolder;
+  font-size: larger;
+
+}
+.myskillheading{
+  text-decoration: underline;
+}
+/* testmonial */
+.testmonial{
+  font-weight: bolder;
+}
